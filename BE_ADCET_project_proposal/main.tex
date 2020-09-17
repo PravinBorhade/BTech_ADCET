@@ -1,0 +1,46 @@
+\documentclass[a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{2020-21}
+\fancyhead[L]{Title of the project} % Put title here
+\fancyfoot[L]{\leftmark Department of CSE, ADCET, Ashta.}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\title{B.Tech ADCET Synopsis}
+\author{Pravin Borhade }
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+\input{templates/coverpage}
+\newpage
+\input{templates/contentTable}
+\newpage
+\input{templates/abstract}
+\newpage
+\input{templates/introduction}
+\newpage
+\input{templates/literatureSurvey}
+\newpage
+\input{templates/problemStatment}
+\newpage
+\input{templates/schedule}
+\newpage
+\input{templates/refeneceList/books}
+\newpage
+\input{templates/refeneceList/conference }
+\newpage
+\input{templates/refeneceList/dataSets}
+\newpage
+\input{templates/optional}
+\end{document}
