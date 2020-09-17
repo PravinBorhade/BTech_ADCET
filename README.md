@@ -10,7 +10,7 @@ This repository contains templates for documents using LaTex
 
 - Texlive (or any other environment that works with latex)
 
-### Instalation of texlive
+### Installation of texlive
 
 ```bash
 sudo apt install texlive
