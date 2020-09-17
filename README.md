@@ -1,6 +1,6 @@
 # BE ADCET Documents
 
-this repository contains templates for documents usiing LaTex
+This repository contains templates for documents using LaTex
 
 ## Available Templates
 
@@ -8,9 +8,9 @@ this repository contains templates for documents usiing LaTex
 
 ## prerequisite
 
-- texlive (or any other environment that works with latex)
+- Texlive (or any other environment that works with latex)
 
-### instalation of texlive
+### Instalation of texlive
 
 ```bash
 sudo apt install texlive
@@ -24,3 +24,6 @@ then run following command
 ```bash
 pdflatex main.tex
 ```
+
+pdf will be created and it shall be named as 'main.pdf'.
+✌
